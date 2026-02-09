@@ -30,3 +30,7 @@ args = "bash main.sh"
 
 [workflows.workflow.metadata]
 outputType = "console"
+
+[[ports]]
+localPort = 8081
+externalPort = 80

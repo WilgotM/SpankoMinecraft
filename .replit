@@ -35,5 +35,9 @@ outputType = "console"
 localPort = 8081
 externalPort = 80
 
+[[ports]]
+localPort = 25577
+externalPort = 3000
+
 [deployment]
 deploymentTarget = "cloudrun"
